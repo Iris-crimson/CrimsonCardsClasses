@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laz20\\AppData\\Roaming\\GitHub Desktop\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj": {}
+    "C:\\Users\\laz20\\Documents\\GitHub\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laz20\\AppData\\Roaming\\GitHub Desktop\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj": {
+    "C:\\Users\\laz20\\Documents\\GitHub\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laz20\\AppData\\Roaming\\GitHub Desktop\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj",
+        "projectUniqueName": "C:\\Users\\laz20\\Documents\\GitHub\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj",
         "projectName": "CrimsonCards",
-        "projectPath": "C:\\Users\\laz20\\AppData\\Roaming\\GitHub Desktop\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj",
+        "projectPath": "C:\\Users\\laz20\\Documents\\GitHub\\CrimsonCards\\CrimsonCards\\CrimsonCards.csproj",
         "packagesPath": "C:\\Users\\laz20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laz20\\AppData\\Roaming\\GitHub Desktop\\CrimsonCards\\CrimsonCards\\obj\\",
+        "outputPath": "C:\\Users\\laz20\\Documents\\GitHub\\CrimsonCards\\CrimsonCards\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\laz20\\AppData\\Roaming\\NuGet\\NuGet.Config",

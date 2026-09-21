@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = CrimsonCards
-build_property.ProjectDir = C:\Users\laz20\AppData\Roaming\GitHub Desktop\CrimsonCards\CrimsonCards\
+build_property.ProjectDir = C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

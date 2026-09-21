@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrimsonCards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95eed5a74caedf717e94fa41747decb96cde6a15")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrimsonCards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrimsonCards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
