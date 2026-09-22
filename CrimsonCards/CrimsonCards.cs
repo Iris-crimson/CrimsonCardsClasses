@@ -20,7 +20,7 @@ namespace CrimsonCards
     {
         private const string ModId = "com.iriscrimson.rounds.CrimsonCards";
         private const string ModName = "Crimson Cards";
-        private const string Version = "1.0.0";
+        private const string Version = "0.0.2";
         public const string ModInitials = "CC";
         public static CrimsonCards instance { get; private set; }
 
