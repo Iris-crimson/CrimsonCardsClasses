@@ -5,6 +5,9 @@ using CardChoiceSpawnUniqueCardPatch.CustomCategories;
 using System.Net.NetworkInformation;
 using CrimsonCards.Cards;
 using CrimsonCards.Cards.BounceKingClass;
+using CrimsonCards.Cards.DeaconClass;
+using UnboundLib.Utils;
+using GunProjectileSizePatch;
 
 namespace CrimsonCards
 {
@@ -12,6 +15,7 @@ namespace CrimsonCards
     [BepInDependency("pykess.rounds.plugins.moddingutils", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("root.classes.manager.reborn", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("root.gunprojectilesizepatch", BepInDependency.DependencyFlags.HardDependency)]
 
     [BepInPlugin(ModId, ModName, Version)]
 
@@ -20,7 +24,7 @@ namespace CrimsonCards
     {
         private const string ModId = "com.iriscrimson.rounds.CrimsonCards";
         private const string ModName = "Crimson Cards";
-        private const string Version = "0.0.2";
+        private const string Version = "0.1.0";
         public const string ModInitials = "CC";
         public static CrimsonCards instance { get; private set; }
 
@@ -36,6 +40,11 @@ namespace CrimsonCards
             CustomCard.BuildCard<LordOfRicochet>((card => LordOfRicochet.Card = card));
             CustomCard.BuildCard<Unpredictability>((card => Unpredictability.Card = card));
             CustomCard.BuildCard<ProtectiveCoating>((card => ProtectiveCoating.Card = card));
+
+            CustomCard.BuildCard<Deacon>((card => Deacon.Card = card));
+            CustomCard.BuildCard<FocusedPrayer>((card => FocusedPrayer.Card = card));
+            CustomCard.BuildCard<PrayeroftheMagdump>((card => PrayeroftheMagdump.Card = card));
+            CustomCard.BuildCard<PrayerofGrandeur>((card => PrayerofGrandeur.Card = card));
         }
     }
 }

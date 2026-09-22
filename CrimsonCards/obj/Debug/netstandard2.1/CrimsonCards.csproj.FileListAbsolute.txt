@@ -96,3 +96,4 @@ C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\obj\Debug\netstandard2
 C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\obj\Debug\netstandard2.1\CrimsonC.CF771FBE.Up2Date
 C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\obj\Debug\netstandard2.1\CrimsonCards.dll
 C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\obj\Debug\netstandard2.1\CrimsonCards.pdb
+C:\Users\laz20\Documents\GitHub\CrimsonCards\CrimsonCards\bin\Debug\netstandard2.1\GunProjectileSizePatch.dll
