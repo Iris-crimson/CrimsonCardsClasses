@@ -22,7 +22,7 @@ namespace CrimsonCards.Cards.BounceKingClass
         public override void SetupCard(CardInfo cardInfo, Gun gun, ApplyCardStats cardStats, CharacterStatModifiers statModifiers, Block block)
         {
             //Edits values on card itself, which are then applied to the player in `ApplyCardStats`
-            gun.reflects = 15;
+            gun.reflects = 7;
             gun.damage = 0.25f;
             gun.dmgMOnBounce = 1.2f;
             cardInfo.allowMultiple = false;
@@ -63,7 +63,7 @@ namespace CrimsonCards.Cards.BounceKingClass
                 {
                     positive = true,
                     stat = "Per Card",
-                    amount = "+15 Bounces",
+                    amount = "+7 Bounces",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()

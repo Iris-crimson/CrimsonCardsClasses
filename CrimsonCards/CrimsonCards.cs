@@ -15,7 +15,6 @@ namespace CrimsonCards
     [BepInDependency("pykess.rounds.plugins.moddingutils", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("root.classes.manager.reborn", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInDependency("root.gunprojectilesizepatch", BepInDependency.DependencyFlags.HardDependency)]
 
     [BepInPlugin(ModId, ModName, Version)]
 
@@ -24,7 +23,7 @@ namespace CrimsonCards
     {
         private const string ModId = "com.iriscrimson.rounds.CrimsonCards";
         private const string ModName = "Crimson Cards";
-        private const string Version = "0.1.0";
+        private const string Version = "0.1.2";
         public const string ModInitials = "CC";
         public static CrimsonCards instance { get; private set; }
 

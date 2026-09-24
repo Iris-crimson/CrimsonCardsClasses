@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace CrimsonCards.MonoBehaviours
 {
-    class BounceKingCard : MonoBehaviour
+    class DeaconCard : MonoBehaviour
     {
         // Get player data and stats
         private Player player;
@@ -16,7 +16,7 @@ namespace CrimsonCards.MonoBehaviours
         public int numCards = 0;
 
         // Locks some stats
-        public int bounce = 7;
+        public int ammo = 150;
 
         public void Awake()
         {
@@ -35,13 +35,13 @@ namespace CrimsonCards.MonoBehaviours
         public IEnumerator OnPickEnd(IGameModeHandler gm)
         {
             setStats();
-            gun.reflects += ((numCards * 7));
+            gun.ammo += ((numCards * 150));
             yield break;
         }
 
         private void setStats()
         {
-            gun.reflects = bounce;
+            gun.ammo = ammo;
         }
     }
 }

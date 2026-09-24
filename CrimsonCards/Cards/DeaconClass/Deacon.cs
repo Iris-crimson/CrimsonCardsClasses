@@ -23,18 +23,20 @@ namespace CrimsonCards.Cards.DeaconClass
         {
             //Edits values on card itself, which are then applied to the player in `ApplyCardStats`
             gun.spread = 0.01f;
-            gun.attackSpeedMultiplier = 5f;
-            gun.ammo = 300;
+            gun.attackSpeedMultiplier = 0.1f;
+            gun.ammo = 150;
             cardInfo.allowMultiple = false;
         }
         public override void OnAddCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Edits values on player when card is selected
-
+            player.gameObject.AddComponent<DeaconCard>();
+            player.transform.gameObject.GetComponent<DeaconCard>().numCards++;
         }
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Run when the card is removed from the player
+            GameObject.Destroy(player.gameObject.GetOrAddComponent<DeaconCard>());
         }
         protected override string GetTitle()
         {
@@ -60,14 +62,14 @@ namespace CrimsonCards.Cards.DeaconClass
                 {
                     positive = true,
                     stat = "Attack Speed",
-                    amount = "+500%",
+                    amount = "+90%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()
                 {
                     positive = true,
-                    stat = "Ammo",
-                    amount = "+300",
+                    stat = "Ammo Per Card",
+                    amount = "+150",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()
